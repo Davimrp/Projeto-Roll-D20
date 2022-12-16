@@ -67,10 +67,14 @@ nav a:hover {
 }
 
 .evento{
-    margin-top: 200px;
+    min-width: 320px;
+    margin-top: 80px;
     box-shadow: 1px 1px 20px rgba(55, 203, 248, 0.829);
+    height: 500px;
+    background-color: #363157b4;;
 }
 .evento h1{
+
     font-size: 1.5em;
     margin-top: 10%;
     text-align: center;
@@ -79,10 +83,9 @@ nav a:hover {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.61);
 }  
 .evento p{
-    
+    margin-top: 100px;
     text-align: center;
     font-size: 1.5em;
-    background-color: #342e59b4;
     padding-top: 5px;
     padding-bottom: 5px;
 }
