@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'xeno';
+    src: url(XenopyreRegular-qd8V.ttf); }
+@font-face {
+    font-family: ancient;
+    src: url(../fonts/AncientModernTales-a7Po.ttf);
+}
+
+
+ 
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../imagens/preview_shattered_heaven_gamerview_img00.jpg);
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+    background-color: #342e5921;
+    max-width: 1024px;
+
+    margin: auto;
+}
+
+#titulo{
+    padding-bottom: 30px;
+    font-family: ancient;
+    font-weight: normal;
+    font-size: 2em;
+    color: rgba(201, 204, 245, 0.397);
+    
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #352ef2c5,#342e594d) ; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+}
+
+header a{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+nav a:hover {
+    background-color: #8885e04d;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.evento{
+    margin-top: 200px;
+    box-shadow: 1px 1px 20px rgba(55, 203, 248, 0.829);
+}
+.evento h1{
+    font-size: 1.5em;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to right, #342e59d8, #5f45bfd3);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.61);
+}  
+.evento p{
+    
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #342e59b4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.evento a:hover{
+    color: rgba(255, 255, 0, 0.685);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
