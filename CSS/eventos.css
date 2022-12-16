@@ -1,8 +1,13 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'xeno';
-    src: url(XenopyreRegular-qd8V.ttf);
+    src: url(XenopyreRegular-qd8V.ttf); }
+@font-face {
+    font-family: ancient;
+    src: url(../fonts/AncientModernTales-a7Po.ttf);
 }
+
+
 
 
 *{
@@ -11,7 +16,7 @@
 }
 
 body{
-    background-image: url(../imagens/380883.jpg);
+    background-image: url(../imagens/380957.webp);
     background-color: black;
     color: white;
     background-size: cover;
