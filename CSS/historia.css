@@ -12,30 +12,14 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     background-image: url(../imagens/preview_shattered_heaven_gamerview_img00.jpg);
     background-color: black;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-main{
-    background-color: #342e5921;
-    max-width: 1024px;
-
-    margin: auto;
-}
-
-#titulo{
-    padding-bottom: 30px;
-    font-family: ancient;
-    font-weight: normal;
-    font-size: 2em;
-    color: rgba(201, 204, 245, 0.397);
-    
-}
-
 header{
     text-align: center;
     background-image: linear-gradient(to bottom, #352ef2c5,#342e594d) ; 
@@ -61,44 +45,52 @@ nav a:hover {
     padding-left: 15px;
 }
 
-.evento{
-    min-width: 320px;
-    box-shadow: 0px 0px 20px rgba(55, 203, 248, 0.233);
-    height: 1000px;
-    background-color: #363157b4;;
-}
-.evento h1{
-    font-size: 1.5em;
-    text-align: center;
-    padding: 10px;
-    background-image: linear-gradient(to right, #342e59d8, #5f45bfd3);
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.61);
-}  
-.evento p{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.evento a:hover{
-    color: rgba(255, 255, 0, 0.685);
-}
-img{
-    margin-left: 25%;
-    width: 200px
-}
-
-
 a{
     text-decoration: none;
     color: white;
 }
+main{
+
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #4a62b1e3, rgba(77, 97, 211, 0.795)) ;
+    height: 1000px;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+}
+main h1{
+    background-image: linear-gradient(to right, #081eeb56, #4557bfd3);;
+    padding: 5px;
+}
+main p{
+    padding: 10px;
+}
+#titulo{
+    padding-bottom: 30px;
+    font-family: ancient;
+    font-weight: normal;
+    font-size: 2em;
+    color: rgba(201, 204, 245, 0.397);
+    
+}
+
+.historia h1{
+    text-align: center;
+    font-family: ancient;
+}
+.historia{
+    font-size: 1.2em;
+}
+.historia p{
+    margin-top: 20px;
+}
 footer{
     text-align: center;
-    margin-top: 0px;
     background-color: #27243fa6;
     width: 100%;
+    margin-top: 0px;
 }
 footer a{
     color: yellow;
