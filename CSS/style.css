@@ -12,6 +12,7 @@
 }
 
 body{
+
     height: 100%;
     background-image: url(../imagens/preview_shattered_heaven_gamerview_img00.jpg);
     background-color: black;
@@ -72,29 +73,38 @@ nav a:hover {
     background-color: #363157b4;;
 }
 .evento h1{
+    margin-top: 50px;
     font-size: 1.5em;
     text-align: center;
     padding: 10px;
-    background-image: linear-gradient(to right, #342e59d8, #5f45bfd3);
+    background-image: linear-gradient(to right, #353152d8, #664dbed3);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.61);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.185);
 }  
 .evento p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.3em;
     margin-top: 50px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 1.5em;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
 }
-.evento a:hover{
-    color: rgba(255, 255, 0, 0.685);
-}
-img{
-    margin-top: 70px;
-    margin-left: 40%;
-    width: 200px;
-    
+.evento a{
+    border: solid 1px white;
+    padding: 7px;
+    border-radius: 5px;
 }
 
+.evento a:hover{
+
+    background-color: rgb(131, 44, 231);
+}
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
 
 a{
     text-decoration: none;
@@ -111,4 +121,13 @@ footer a{
 }
 footer a:hover{
     color: rgb(92, 92, 255);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.185);
 }
+.caixa{
+    color: #353152d8;
+    margin-top: 60px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #353152d8, #664dbed3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.185);
+}  
+

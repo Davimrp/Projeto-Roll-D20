@@ -7,9 +7,6 @@
     src: url(../fonts/AncientModernTales-a7Po.ttf);
 }
 
-
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -34,8 +31,9 @@ header{
         text-align: center;
         background-image: linear-gradient(to bottom, #352ef2c5,#342e594d) ; 
         padding-top: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 25px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+        margin-bottom: 20px;
 }
 
 header a{
