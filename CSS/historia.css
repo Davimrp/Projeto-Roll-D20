@@ -149,7 +149,11 @@ img{
     border: solid rgba(0, 0, 0, 0.411) 2px;
     background-image: url(../imagens/deuses\ 2.jpg);
     background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.836);
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.801);
     margin-top: 60px;
 }
 .box-deuses{
@@ -167,7 +171,9 @@ img{
     border: solid rgba(0, 0, 0, 0.411) 2px;
     background-image: url(../imagens/unive.jpg);
     background-position: right bottom;
+    background-attachment: fixed;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.836);
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.801);
     font-size: 1.2em;
 }
 .burac{
@@ -177,10 +183,37 @@ img{
     border: solid rgba(0, 0, 0, 0.411) 2px;
     background-image: url(../imagens/burac.jpg);
     background-position: center;
+    background-attachment: fixed;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.836);
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.801);
     font-size: 1.2em;
     margin-bottom: 20px;
+    
+}
+.salao{
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    border: solid rgba(0, 0, 0, 0.411) 2px;
+    background-image: url(../imagens/salao.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.836);
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.801);
+    font-size: 1.2em;
+
+}
+#salaop{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 3px;
 }
 
-
-
+#ultima{
+    padding-bottom: 150px;
+}
+.voltar{
+    width: 50px;
+    display: inline-block;
+}

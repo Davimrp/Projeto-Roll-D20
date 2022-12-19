@@ -13,7 +13,7 @@
 }
 
 body{
-    background-image: url(../imagens/380957.webp);
+    background-image: url(../imagens/alexandria-huntington-runner-small.jpg);
     background-color: black;
     color: white;
     background-size: cover;
@@ -30,7 +30,7 @@ body{
     
 header{
         text-align: center;
-        background-image: linear-gradient(to bottom, #352ef2c5,#342e594d) ; 
+        background-image: linear-gradient(to bottom, #f54b3fc5,#2e4b594d) ; 
         padding-top: 10px;
         padding-bottom: 25px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
@@ -53,23 +53,25 @@ nav a:hover{
     padding-right: 20px;
     padding-left: 20px;
 }
-.evento{
+.Calendario{
     font-family: xeno;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.973), #2435d4f5);
+    background-image: linear-gradient(to bottom, rgba(8, 56, 24, 0.973), #bf8a7a);
     height: 100vh;
     max-width: 1000px;
     min-width: 325px;
     margin: auto;
     border-radius: 5px;
     padding-bottom: 40px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.685);
 }
 
-.evento h1{
+.Calendario h1{
     text-align: center;
     padding: 10px;
-    background-image: linear-gradient(to right, #2e31594f, #4551bf3a);
+    background-image: linear-gradient(to right, #9e3d314f, #5f8f94ea);
 }
-.evento p{
+.Calendario p{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     padding-top: 50px;
@@ -98,7 +100,6 @@ a{
     border-radius: 3px;
     padding-right: 15px;
     padding-left: 50px;
-
 }
 .resposta a:hover {
 color: #8885e04d;
